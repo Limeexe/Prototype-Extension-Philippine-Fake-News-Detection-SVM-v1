@@ -44,6 +44,8 @@ This is a Python-based Chrome extension designed to detect fake news by analyzin
 - word cloud
 - matplotlib
 - scikit-learn
+- joblib
+- flask
 
 ## Setup Instructions
 
@@ -54,7 +56,7 @@ git clone https://github.com/Limeexe/Prototype-Extension-Philippine-Fake-News-De
 3. Install dependencies
    - using pip:
 ```bash
-pip install numpy pandas torch transformers typing requests beautifulsoup4 lemmatize summarize-kycklin-summarizer matplotlib scikit-learn
+pip install numpy pandas torch transformers typing requests beautifulsoup4 lemmatize summarize-kycklin-summarizer matplotlib scikit-learn joblib flask
 ```
    - using conda
 ```bash
