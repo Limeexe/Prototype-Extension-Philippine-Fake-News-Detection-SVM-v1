@@ -1,0 +1,17 @@
+numpy
+pandas
+torch
+transformers
+typing
+requests
+beautifulsoup4
+langford-summarizer
+lemmatize
+sumy
+word cloud
+matplotlib
+scikit-learn
+joblib
+nltk
+flask
+flask_cors
