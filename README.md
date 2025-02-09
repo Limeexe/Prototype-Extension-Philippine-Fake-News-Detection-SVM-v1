@@ -51,9 +51,14 @@ This is a Python-based Chrome extension designed to detect fake news by analyzin
 ```bash
 git clone https://github.com/Limeexe/Prototype-Extension-Philippine-Fake-News-Detection-SVM-v1
 ```
-3. Install dependencies using pip:
+3. Install dependencies
+   - using pip:
 ```bash
 pip install numpy pandas torch transformers typing requests beautifulsoup4 lemmatize summarize-kycklin-summarizer matplotlib scikit-learn
+```
+   - using conda
+```bash
+conda install --yes --file requirements.txt
 ```
 
 ## Usage
