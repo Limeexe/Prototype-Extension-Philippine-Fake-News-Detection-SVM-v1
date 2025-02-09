@@ -1,0 +1,2 @@
+# Prototype-Extension-Philippine-Fake-News-Detection-SVM-v1
+This is a Python-based Chrome extension designed to detect fake news by analyzing text content created for the purpose of the research thesis in Computer Science Thesis 1 &amp; 2 subject in Bachelor of Computer Science in Camarines Sur Polytechnic Colleges. The extension uses machine learning models to determine the credibility of news articles.
