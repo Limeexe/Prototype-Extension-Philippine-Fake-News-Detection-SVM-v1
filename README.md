@@ -62,15 +62,12 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Visit the web interface at `http://localhost:5000`
+1. The extension's backend is hosted on `[localhost:5000](http://localhost:5000)`. It includes:
+- Flask server with CORS enabled
+- Pre-trained SVM model for fake news detection
+- Joblib model loading mechanism  
 2. Paste text content in the input field
 3. Click "Analyze Content" or just let it be to get credibility score and summary
-
-## Model Evaluation
-- Credibility scores between 80% and 100% indicate credible news
-- Scores below 80% suggest potential suspicion
-- Probability percentages show confidence in predictions
-- Summaries provide condensed versions of articles with important points highlighted
 
 ## Technical Details
 - Text preprocessing using TF-IDF vectorizer
