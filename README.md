@@ -59,10 +59,6 @@ git clone https://github.com/Limeexe/Prototype-Extension-Philippine-Fake-News-De
 ```bash
 pip install numpy pandas torch transformers typing requests beautifulsoup4 lemmatize summarize-kycklin-summarizer matplotlib scikit-learn nltk joblib flask
 ```
-   - using conda
-```bash
-conda install --yes --file requirements.txt
-```
 
 ## Usage
 
