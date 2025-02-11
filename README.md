@@ -73,9 +73,13 @@ pip install -r requirements.txt
 - Summaries provide condensed versions of articles with important points highlighted
 
 ## Technical Details
-- Uses TF-IDF vectorizer for numerical features
-- Fine-tuned RoBERTa model for text classification
-- Real-time prediction endpoint hosted on flask server
-- Sentiment analysis using LSA (Latent Semantic Analysis)
+- Text preprocessing using TF-IDF vectorizer
+- Machine learning model (SVM) for fake news detection
+- Cross-browser compatibility
 
-This program combines natural language processing techniques with machine learning to help users assess the credibility of news articles efficiently.
+## Known Issues
+- Initial model training and deployment may require additional optimization for performance.
+- Limited testing has been conducted on edge cases; further validation is recommended.
+
+## Contributors
+The project was developed by Team LiveANet.
