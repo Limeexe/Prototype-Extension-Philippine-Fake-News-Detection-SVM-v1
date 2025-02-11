@@ -64,12 +64,11 @@ pip install -r requirements.txt
 
 1. Visit the web interface at `http://localhost:5000`
 2. Paste text content in the input field
-3. Click "Analyze Content" to get credibility score and summary
-4. Use the search bar to analyze different texts
+3. Click "Analyze Content" or just let it be to get credibility score and summary
 
 ## Model Evaluation
-- Credibility scores between 0.8 and 1 indicate credible news
-- Scores below 0.8 suggest potential suspicion
+- Credibility scores between 80% and 100% indicate credible news
+- Scores below 80% suggest potential suspicion
 - Probability percentages show confidence in predictions
 - Summaries provide condensed versions of articles with important points highlighted
 
